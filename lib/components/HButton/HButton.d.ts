@@ -1,5 +1,4 @@
 import React, { CSSProperties } from 'react';
-import './Hbutton.css';
 export type ComponentSize = 'default' | 'large' | 'small';
 export type ButtonType = 'default' | 'warning' | 'primary' | 'secondary' | 'info' | 'error';
 interface ButtonProps {

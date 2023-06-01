@@ -1,6 +1,5 @@
 import React, { CSSProperties,useEffect, useState } from 'react'
 import ShortUniqueId from 'short-unique-id';
-import './Hbutton.css'
 import { StyledButton } from './styled';
 export type ComponentSize = 'default' | 'large' | 'small'
 export type ButtonType = 'default' | 'warning' | 'primary' | 'secondary' | 'info' | 'error';
